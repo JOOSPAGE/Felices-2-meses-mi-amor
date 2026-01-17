@@ -794,7 +794,7 @@ Gracias por ser my paz y mi lugar seguro. Gracias por elegirme y dejarme querert
             heart.add(highlightSprite); // Añadir el reflejo como hijo del corazón
 
             const starsGeometry = new THREE.BufferGeometry();
-            const starsCount = 12000;
+            const starsCount = 200;
             const posArray = new Float32Array(starsCount * 3); const colors = new Float32Array(starsCount * 3); const sizes = new Float32Array(starsCount);
             for (let i = 0; i < starsCount; i++) {
                 const angle = Math.random() * Math.PI * 2; const radius = Math.random() * 30 + 20;
@@ -1030,4 +1030,5 @@ function stopConfetti() {
 
     </script>
 </body>
+
 </html>
